@@ -27,6 +27,6 @@ class MyListener(stomp.ConnectionListener):
 conn = stomp.Connection12([('localhost', 7777)])
 conn.set_listener('', MyListener(conn))
 connect_and_subscribe(conn,'zisling','password')
-conn.send('/queue/test','i am gery me tvria')
+conn.send('/queue/test','i am gery from tvria')
 time.sleep(2)
 conn.disconnect()
