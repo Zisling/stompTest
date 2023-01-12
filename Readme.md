@@ -3,7 +3,7 @@ This is a test for bgu spl stomp server
 
 To run this code you need to install the following:
 1. Linux or The VM or The given docker.
-2. python 3.6 or above. you m
+2. python 3.6 or above. if you don't have it install it
 3. install stomp.py
 
 ## How to run
@@ -11,7 +11,7 @@ To run this code you need to install the following:
 2. Then run the fallowing command in the terminal:
    
  
-    $ python3 stompTest.py
+    python3 stompTest.py
 
 3. You should see the following output:
    
@@ -32,3 +32,11 @@ To run this code you need to install the following:
 
     pip3 install stomp.py
 
+make sure you have python installed
+
+
+### Extra
+
+You can change the ip and the port for the tests by running:
+
+    python3 stompTest.py --ip <ip> --port <port>
