@@ -1,14 +1,21 @@
 # STOMP TEST
 This is a test for bgu spl stomp server
 
-To run this code you need to install the following:
+To run this code you need to have the following:
 1. Linux or The VM or The given docker.
-2. python 3.6 or above. if you don't have it install it
-3. install stomp.py
+2. python 3.6 or above installed.
+3. and installing stomp.py
+
+### How To install stomp.py
+
+    pip3 install stomp.py
+
+make sure you have python installed
+
 
 ## How to run
 1. Run you server on port 7777
-2. Then run the fallowing command in the terminal:
+2. Then run the fallowing command in the terminal for the folder of the test:
    
  
     python3 stompTest.py
@@ -25,17 +32,15 @@ To run this code you need to install the following:
     Where the fear has gone there will be nothing.
     Only I will remain.
     --- Frank Herbert, Dune
+    disconnected 1
+    disconnected 2
+    disconnected 3
 
-### How To install stomp.py
-
-    pip3 install stomp.py
-
-make sure you have python installed
 
 
 ### Extra
 
-You can change the ip and the port for the tests by running:
+You can change the ip and the port for the tests by running like this:
 
     python3 stompTest.py --ip <ip> --port <port>
 
@@ -47,4 +52,4 @@ or
 
     python3 --ip <ip> --port <port> --doubleLogin
 
-This should add an error frame for user already logged in 
+This should add an error frame for a user already logged in 
