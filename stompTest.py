@@ -41,7 +41,7 @@ And when it has gone past I will turn the inner eye to see its path.
 Where the fear has gone there will be nothing.
 Only I will remain.
 --- Frank Herbert, Dune'''
-con2_message = 'conn 2 should not be connected and it send a message'
+con2_message = 'conn 2 should not be connected and send this message'
 if __name__ == '__main__':
     args = parse_args()
     ip_port = [(args.ip, args.port)]
