@@ -22,20 +22,20 @@ make sure you have python installed
 
 3. You should see the following output:
    
-
-    I must not fear.
-    Fear is the mind-killer.
-    Fear is the little-death that brings total obliteration.
-    I will face my fear.
-    I will permit it to pass over me and through me.
-    And when it has gone past I will turn the inner eye to see its path.
-    Where the fear has gone there will be nothing.
-    Only I will remain.
-    --- Frank Herbert, Dune
-    disconnected 1
-    disconnected 2
-    disconnected 3
-
+```
+I must not fear.
+Fear is the mind-killer.
+Fear is the little-death that brings total obliteration.
+I will face my fear.
+I will permit it to pass over me and through me.
+And when it has gone past I will turn the inner eye to see its path.
+Where the fear has gone there will be nothing.
+Only I will remain.
+--- Frank Herbert, Dune
+disconnected 1
+disconnected 2
+disconnected 3
+```
 
 
 ### Extra
