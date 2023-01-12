@@ -16,8 +16,6 @@ To run this code you need to install the following:
 3. You should see the following output:
    
 
-    connection number 2 received an error
-    <THE ERROR FRAME YOU SENT>
     I must not fear.
     Fear is the mind-killer.
     Fear is the little-death that brings total obliteration.
@@ -40,3 +38,13 @@ make sure you have python installed
 You can change the ip and the port for the tests by running:
 
     python3 stompTest.py --ip <ip> --port <port>
+
+And check double login by running:
+
+    python3 stompTest.py --doubleLogin
+
+or
+
+    python3 --ip <ip> --port <port> --doubleLogin
+
+This should add an error frame for user already logged in 
