@@ -52,4 +52,4 @@ or
 
     python3 --ip <ip> --port <port> --doubleLogin
 
-This should add an error frame for a user already logged in 
+This should add an error frame for a user already logged in.
